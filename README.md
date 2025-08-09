@@ -1,12 +1,56 @@
-# React + Vite
+# React Counter App 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and professional-looking **React.js counter application** that supports:
 
-Currently, two official plugins are available:
+- Increment and decrement counter buttons
+- Add current value to a list (only if > 0)
+- Display list of added values
+- Sort toggle (ascending/descending)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+---
+
+## Features
+
+- 🎛 Counter initialized to 0 with + and − buttons
+-  Add button adds current value to list (if > 0)
+-  Displays all added values
+-  Sort button toggles between ascending and descending
+
+---
+
+##  Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/RAIQAHealthProject.git
+cd RAIQAHealthProject
+
+2.Install dependencies:
+--npm create vite@latest RAIQAHealthProject
+--npm install
+
+3.Run the development server:
+--npm run dev
+
+🛠️ Built With
+  1.React.js (with Hooks)
+
+  2.JSX & Modern CSS
+
+3.Responsive Design
+
+📁 Project Structure
+  src/
+├── App.jsx        # Main component
+├── App.css        # Styling
+└── index.html       #entrylevel
+
+🧑‍🎓 Author
+ Saveri Gavvala
+
+
